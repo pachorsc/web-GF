@@ -26,6 +26,10 @@ body {
     background-color:  #f3f3f3;
 }
 
+.card-img-top {
+  height: 100%;
+}
+
 /* fomulario de contacto */
 .conta {
   width: 80% !important;
