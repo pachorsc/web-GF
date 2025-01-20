@@ -41,7 +41,7 @@ iframe {
 
 /*ayuda*/
 .ayuda {
-  height: 50dvh;
+  height: 80dvh;
   background-image: url("./img/ayuda1.avif" );
   background-size:cover;
   background-position:center ;
