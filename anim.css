@@ -1,4 +1,5 @@
 
+
 body {
     background-color: #f3f3f3;
     overflow-x: hidden;
@@ -26,8 +27,8 @@ body {
     background-color:  #f3f3f3;
 }
 
-.card-img-top {
-  height: 100%;
+.gal > div {
+  gap: 20px;
 }
 
 /* fomulario de contacto */
