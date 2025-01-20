@@ -4,6 +4,9 @@ body {
     background-color: #f3f3f3;
     overflow-x: hidden;
 }
+iframe {
+  width: 100%;
+}
 .navbar {
     background-color:  #f3f3f3;
 }
@@ -34,6 +37,14 @@ body {
 /* fomulario de contacto */
 .conta {
   width: 80% !important;
+}
+
+/*ayuda*/
+.ayuda {
+  height: 50dvh;
+  background-image: url("./img/ayuda1.avif" );
+  background-size:cover;
+  background-position:center ;
 }
 /* footer */
 .site-footer
