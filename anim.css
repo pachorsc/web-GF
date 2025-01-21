@@ -62,6 +62,19 @@ iframe {
     border: none !important;
   }
 }
+
+/*prod*/
+.prod {
+  padding: 0;
+}
+.prod > h1 {
+  position: absolute;
+top: 200px;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
 /* footer */
 .site-footer
 {
