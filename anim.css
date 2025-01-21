@@ -41,10 +41,26 @@ iframe {
 
 /*ayuda*/
 .ayuda {
-  height: 80dvh;
+  height: 90dvh;
   background-image: url("./img/ayuda1.avif" );
   background-size:cover;
   background-position:center ;
+}
+
+/*Maltes*/
+.maltes {
+  background: url('https://irreductible.naukas.com/files/2009/02/Maltese_Tiger_by_Guiam.jpg');
+  height: 100dvh;
+  background-size: cover;
+  background-position: center;
+}
+.malt-l li {
+  margin: 26px 0px;
+}
+@media (max-width: 990px) {
+  .malt-img {
+    border: none !important;
+  }
 }
 /* footer */
 .site-footer
