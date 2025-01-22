@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Sriracha&display=swap');
+header {
+  z-index: 9999999 !important;
+}
+h1,h2 {
+  font-family: 'Sriracha';
+  font-size: 60px;
+}
+@media (max-width:550px) {
+  h1,h2 {
 
+    font-size: 40px;
+  }
+}
+@media (max-width:368px) {
+  h1,h2 {
 
+    font-size: 30px;
+  }
+}
+@media (max-width:257px) {
+  h1,h2 {
+    font-size: 20px;
+  }
+}
+p {
+   font-family: 'Fugaz','Sriracha' ;
+   font-size: 1rem;
+}
 body {
     background-color: #f3f3f3;
     overflow-x: hidden;
@@ -68,12 +96,12 @@ iframe {
   padding: 0;
 }
 .prod > h1 {
-  position: absolute;
-top: 200px;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
+  position: relative;
+  top: 140px;
+  margin-top: -130px;
+}
+.prod >img {
+  min-height: 200px;
 }
 
 /*galeria*/
