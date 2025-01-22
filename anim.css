@@ -10,18 +10,18 @@ h1,h2 {
 @media (max-width:550px) {
   h1,h2 {
 
-    font-size: 40px;
+    font-size: 40px !important;
   }
 }
 @media (max-width:368px) {
   h1,h2 {
 
-    font-size: 30px;
+    font-size: 30px !important;
   }
 }
 @media (max-width:257px) {
   h1,h2 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 }
 p {
@@ -32,8 +32,27 @@ body {
     background-color: #f3f3f3;
     overflow-x: hidden;
 }
+.card {
+  padding: 0;
+}
+.men-b {
+  width: 20px;
+  height: 20px;
+  background-color: #bdbdbd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px !important;
+}
+@media (max-width:991px) {
+  .men-b {
+    padding-right: 4px !important;
+  }
+}
 iframe {
   width: 100%;
+  height: 50dvw;
 }
 .navbar {
     background-color:  #f3f3f3;
@@ -76,6 +95,11 @@ iframe {
 }
 
 /*Maltes*/
+@media (max-width:768px) {
+  .malt-h1 {
+    font-size: 24px;
+  }
+}
 .maltes {
   background: url('https://irreductible.naukas.com/files/2009/02/Maltese_Tiger_by_Guiam.jpg');
   height: 100dvh;
